@@ -1,3 +1,8 @@
 .env
 node_modules/
 session/
+# Keep the plugins/ directory but ignore user-installed plugin files
+plugins/*
+!plugins/echo.js
+!plugins/time.js
+!plugins/.gitkeep
