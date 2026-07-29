@@ -4,7 +4,7 @@
   "description": "WhatsApp Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node start.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "docker:build": "docker build -t queenriam .",
@@ -23,6 +23,9 @@
     "@adiwajshing/keyed-db": "^0.2.4",
     "@ffmpeg/ffmpeg": "^0.12.15",
     "@hapi/boom": "^10.0.1",
+    "@hapi/hoek": "^11.0.7",
+    "@supabase/supabase-js": "^2.111.0",
+    "pg": "^8.13.0",
     "@types/node": "^18.0.6",
     "@whiskeysockets/baileys": "7.0.0-rc13",
     "adm-zip": "^0.5.17",
