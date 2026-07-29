@@ -7,7 +7,7 @@ const settings = {
   prefix: '.',
   ownerNumber: '2349162123734',
   AUTO_STATUS_REACT: 'true',
-  AUTO_STATUS_REPLY: 'true',
+  AUTO_STATUS_REPLY: 'false',
   AUTO_STATUS_MSG: 'it viewed by bot ',
   AUTORECORD: 'false',
   AUTOTYPE: 'false',
