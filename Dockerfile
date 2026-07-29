@@ -19,6 +19,9 @@ COPY . .
 
 RUN mkdir -p tmp session data
 
+# Railway sets PORT automatically; keep 1000 as fallback.
+# start.js runs a health-check server on this port.
+# The bot's own Express server still uses 8080 internally.
 ENV PORT=1000
 EXPOSE 1000
 
